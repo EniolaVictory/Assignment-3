@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+color: whitesmoke;
+font-family: sans-serif;
+display: flex;
+flex-direction: column;
+}
+
+
+header{
+    background-color: violet;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    width: 100%;
+    height: auto;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+}
+
+h3{
+    font-size: 1rem;
+    padding: 0.3rem 0.5rem;
+    background-color: blue;
+    border-radius: 0.3rem;
+    color: chartreuse;
+    font-weight: 800;
+}
+
+li a{
+    color: white ;
+}
+
+
+.hero{
+    background: url(https://images.unsplash.com/photo-1726587891959-cc0b6dd20a5a?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+}
+h1,p,button{
+    z-index: 1;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+
+h1{
+    font-size: 40px;
+    transform: scaleY(1.5);
+
+}
+.hero button{
+width: fit-content;
+border-radius: 20px;
+padding: .5rem 2rem;
+border: none;
+color: brown;
+cursor: pointer;
+transition: .5s;
+}
+
+button:hover{
+    background-color: #444;
+    color: #fff;
+}

@@ -27,6 +27,9 @@ nav{
     display: flex;
     justify-content: space-between;
 }
+li a:hover{
+    color: black;
+}
 
 ul{
     display: flex;
@@ -44,7 +47,7 @@ h3{
 }
 
 li a{
-    color: white ;
+    color:white ;
 }
 
 
